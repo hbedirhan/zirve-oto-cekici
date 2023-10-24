@@ -118,6 +118,10 @@ hr.new {
 
 /* Footer */
 
+.footer .container-fluid {
+    background-color: rgb(33, 37, 41);
+}
+
 .text-footer {
     font-size: x-large;
     color: rgb(226,161,28);
@@ -125,10 +129,48 @@ hr.new {
 
 .footer-img {
     width: 100px;
+    margin: auto;
+}
+
+.media-left-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.media-body-footer {
+    margin: 0;
+}
+
+#left .list-group-item svg {
+    width: 20px;
+    height: 20px;
+}
+
+#left .list-group-item svg:hover {
+    opacity: 1;
+}
+
+.media-left-footer-text {
+    color: #E7E5E54F;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-title {
+    display: block;
+}
+
+.footer-title-text {
+    color: white;
 }
 
 .footer-icon {
-    
+
 }
 
 .footer-icon svg{
