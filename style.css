@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&family=Ubuntu&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Navbar */
+
+.img {
+    width: 120px;
+}
+
+.navbar-brand,
+.nav-link {
+    color: rgb(249, 172, 57);
+}
+
+/* Navbar animasyon */
+.collapse {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.35s ease;
+}
+
+
+/* Header */
+
+.fw-column-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.fw-column {
+    background-color: rgb(249, 172, 57);
+    display: flex;
+    justify-content: center;
+}
+
+.fw-column-black {
+    background-color: rgb(33, 37, 41);
+}
+
+.icon-wrap {
+    display: block;
+    line-height: 55px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 0;
+    padding: 0;
+    overflow: visible;
+    border-radius: 50%;
+    background-color: #E7E5E54F;
+}
+
+.icon-wrap svg {
+    fill: rgba(252, 253, 253, 0.929);
+    width: 50px;
+    height: 40px;
+}
+
+.media-body {
+    text-align: center;
+    margin-left: 15px;
+}
+
+.media-left {
+    text-align: center;
+    margin-left: 25px;
+}
+
+.media-body .text {
+    font-size: x-large;
+    opacity: 0.5;
+}
+
+/* Content */
+
+.container-img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-title h3 {
+    opacity: 0.7;
+}
+
+hr.new {
+    border-top: 3px dashed rgb(249, 172, 57);
+    width: 100px;
+}
+
+.container-text {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.card {
+    margin: 10px auto;
+    --bs-card-border-color: none;
+}
+
+.card-img-top {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.card-text {
+    opacity: 0.5;
+}
+
+
+/* Footer */
+
+.text-footer {
+    font-size: x-large;
+    color: rgb(226,161,28);
+}
+
+.footer-img {
+    width: 100px;
+}
+
+.footer-icon {
+    
+}
+
+.footer-icon svg{
+    fill: rgb(226,161,28);
+    width: 30px;
+    height: 30px;
+}
+
+.footer-icon svg:hover {
+    opacity: 0.5;
+}
+
+.list-group-item {
+    background-color: rgb(33, 37, 41) ;
+    border: none;
+}
+
+/* whatsapp */
+
+#okapi-wasb-button {
+    position: fixed;
+    z-index: 9999999;
+}
+
+#okapi-wasb-button {
+    bottom: 15px;
+    right: 15px;
+}
+
+#okapi-wasb-icon {
+    opacity: 0.95;
+    width: 75px;
+    height: 75px;
+}
+
+#okapi-wasb-icon:hover {
+    opacity: 1;
+}
+
+@media only screen and (min-width: 320px) {
+    #okapi-wasb-button {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #okapi-wasb-button {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #okapi-wasb-button {
+        display: block;
+    }
+}
